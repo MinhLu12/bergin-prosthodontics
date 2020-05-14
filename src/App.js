@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Button from '@material-ui/core/Button';
+import { Container, AppBar } from '@material-ui/core';
 
 function App() {
   return (
-    <Button variant="contained" color="primary">
-      Bergin Prosthodontics
-    </Button>
+    <Container root>
+      <AppBar position="static">Navigation bar</AppBar>
+      <div>Another component</div>
+    </Container>
   );
 }
 
