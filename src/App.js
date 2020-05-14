@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
+import Button from '@material-ui/core/Button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Bergin Prosthodontics</p>
-      </header>
-    </div>
+    <Button variant="contained" color="primary">
+      Bergin Prosthodontics
+    </Button>
   );
 }
 
