@@ -8,15 +8,14 @@
         font-size: 14px;
         letter-spacing: 0.02857em;
         color: white;
+        text-transform: uppercase;
     }
-
-.ContactInformation_Column {
+    
+.ContactInformation_Grid_Left {
     padding: 16px;
     text-align: center;
     color: #C6878F;
-}
 
-.ContactInformation_Grid_Left {
     display: flex;
     justify-content: flex-end;
 
@@ -26,12 +25,20 @@
 }
 
 .ContactInformation_Grid_Middle {
+    padding: 16px;
+    text-align: center;
+    color: #C6878F;
+
     flex-grow: 0;
     max-width: 25%;
     flex-basis: 25%;
 }
 
 .ContactInformation_Grid_Right {
+    padding: 16px;
+    text-align: center;
+    color: #C6878F;
+
     display: flex;
     justify-content: flex-start;
 
