@@ -3,9 +3,9 @@ import './ContactInfo.css';
 
 const ContactInfo = () => {
   return (
-    <div className="ContactInformation">
+    <div className="ContactInfo">
 
-      <div className="ContactInformation_Grid_Left">
+      <div className={`ContactInfo_Column Left`}>
         <div>
           <p>OFFICE HOURS</p>
           <p>Monday 8 AM - 5 PM</p>
@@ -15,7 +15,7 @@ const ContactInfo = () => {
         </div>
       </div>
 
-      <div className="ContactInformation_Grid_Middle">
+      <div className={`ContactInfo_Column Middle`}>
         <div>
           <p>LOCATION</p>
           <p>3819 NE 45th St Suite C</p>
@@ -23,7 +23,7 @@ const ContactInfo = () => {
         </div>
       </div>
 
-      <div className="ContactInformation_Grid_Right">
+      <div className={`ContactInfo_Column Right`}>
         <div>
           <p>MAP</p>
         </div>

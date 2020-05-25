@@ -1,48 +1,42 @@
-.ContactInformation {
+.ContactInfo {
     display: flex;
     background-color: #67697C;
     justify-content: center;
 }
 
-    .ContactInformation p {
+    .ContactInfo p {
         font-size: 14px;
         letter-spacing: 0.02857em;
         color: white;
         text-transform: uppercase;
     }
-    
-.ContactInformation_Grid_Left {
+
+.ContactInfo_Column {
     padding: 16px;
     text-align: center;
     color: #C6878F;
-
-    display: flex;
-    justify-content: flex-end;
-
-    flex-grow: 0;
-    max-width: 33.3333%;
-    flex-basis: 33.3333%;
 }
 
-.ContactInformation_Grid_Middle {
-    padding: 16px;
-    text-align: center;
-    color: #C6878F;
+    .ContactInfo_Column.Left {
+        display: flex;
+        justify-content: flex-end;
 
-    flex-grow: 0;
-    max-width: 25%;
-    flex-basis: 25%;
-}
+        flex-grow: 0;
+        max-width: 33.3333%;
+        flex-basis: 33.3333%;
+    }
 
-.ContactInformation_Grid_Right {
-    padding: 16px;
-    text-align: center;
-    color: #C6878F;
+    .ContactInfo_Column.Middle {
+        flex-grow: 0;
+        max-width: 25%;
+        flex-basis: 25%;
+    }
 
-    display: flex;
-    justify-content: flex-start;
+    .ContactInfo_Column.Right {
+        display: flex;
+        justify-content: flex-start;
 
-    flex-grow: 0;
-    max-width: 33.3333%;
-    flex-basis: 33.3333%;
-}
+        flex-grow: 0;
+        max-width: 33.3333%;
+        flex-basis: 33.3333%;
+    }
