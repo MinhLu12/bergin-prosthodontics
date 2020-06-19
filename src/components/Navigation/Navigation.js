@@ -6,7 +6,7 @@ import PhoneIcon from "@material-ui/icons/Phone";
 
 const Navigation = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" className={cn.AppBar}>
 
       <Toolbar className={cn.Toolbar}>
         <PhoneIcon className={cn.Phone_Icon} fontSize="small"/>

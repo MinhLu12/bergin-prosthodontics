@@ -1,5 +1,9 @@
 @import 'scss/shared.scss';
 
+.AppBar {
+    background-color: $primary-background-color;
+}
+
 .Toolbar {
     min-height: 50px !important;
     align-items: flex-start !important; 
