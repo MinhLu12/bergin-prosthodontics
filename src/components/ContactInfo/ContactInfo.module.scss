@@ -1,6 +1,8 @@
+@import 'scss/shared.scss';
+
 .ContactInfo {
     display: flex;
-    background-color: #67697C;
+    background-color: $primary-background-color;
     justify-content: center;
 }
 
@@ -46,6 +48,6 @@
     letter-spacing: 0.02857em;
     color: white;
     text-transform: uppercase;
-    background-color: #67697C;
+    background-color: $primary-background-color;
     text-align: center;
 }
