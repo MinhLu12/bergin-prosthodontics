@@ -1,4 +1,4 @@
-@import 'scss/shared.scss';
+@import 'scss/global.scss';
 
 .TabUnderline {
     background-color: transparent !important;
@@ -10,5 +10,5 @@
 
 .Tab {
     min-width: 73px !important;
-    color: white !important;
+    color: $primary-text;
 }
