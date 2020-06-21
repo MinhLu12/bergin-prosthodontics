@@ -4,23 +4,26 @@
     display: flex;
     justify-content: center;
     background-color: $teriary-background-color;
-    height: 150px;
+    min-height: 200px;
     color: $primary-text;
 }
 
 .Image {
     align-self: center;
     display: flex;
-    flex-grow: 1;
     justify-content: flex-end;
 }
 
+    .Image :nth-child(2) {
+        margin-left: 5%;
+    }
+
 .Text {
+    margin-left: 5%;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-grow: 1;
 }
 
 .Header {

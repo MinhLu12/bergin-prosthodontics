@@ -1,13 +1,15 @@
 import React from 'react';
 import cn from './BeforeAndAfter.module.scss';
+import teethBefore from 'assets/before_and_after/teeth-before.png';
+import teethAfter from 'assets/before_and_after/teeth-after.png';
 
 const BeforeAndAfter = () => {
   return (
     <>
       <div className={cn.BeforeAndAfter}>
         <div className={cn.Image}>
-          <img src="/FrontPageBeforeAndAfter/Before.png"></img>
-          <img src="/FrontPageBeforeAndAfter/After.png"></img>
+          <img src={teethBefore}></img>
+          <img src={teethAfter}></img>
         </div>
         <div className={cn.Text}>
           <span className={cn.Header}> Creating Smiles with a Gentle touch.</span>
