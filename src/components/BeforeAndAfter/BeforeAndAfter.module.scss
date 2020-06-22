@@ -1,4 +1,4 @@
-@import 'scss/global.scss';
+@import 'global.scss';
 
 .BeforeAndAfter {
     display: flex;
@@ -8,13 +8,13 @@
     color: $primary-text;
 }
 
-.Image {
-    align-self: center;
+.Images {
+    align-items: center;
     display: flex;
     justify-content: flex-end;
 }
 
-    .Image :nth-child(2) {
+    .Images :nth-child(2) {
         margin-left: 6%;
     }
 
@@ -29,18 +29,17 @@
 .Header {
     font-family: PlayfairDisplay-Bold;
     font-size: 30px;
-    margin-bottom: 0em;
+    margin-bottom: 0px;
 }
 
-.ClickHere {
+.Captions {
     font-family: PlayfairDisplay-Regular;
     font-size: 27px;
-    color: white;
-}
-
-.TextInliner {
-    font-family: PlayfairDisplay-Regular;
-    font-size: 27px;
-    display: inline-block;
+    color: $primary-text;
     margin-top: 0;
-}
+    display: inline-block;
+}   
+
+    .Captions a {
+        color: $primary-text;
+    }
