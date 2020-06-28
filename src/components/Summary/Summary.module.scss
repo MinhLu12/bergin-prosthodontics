@@ -3,31 +3,41 @@
 .Summary {
     display: flex;
     justify-content: center;
-    min-height: 400px;
+    min-height: 500px;
     background-color: $quaternary-background-color;
 }
 
-.Header{
+.Welcome_Text {
     flex-basis: 60%;
+    display: flex;
 }
 
-.Title {
+.Left_Space {
+    flex-basis: 20%;
+}
+
+.Right_Box {
+    flex-basis: 80%;
+}
+
+.Title_Text {
     font-size: $secondary-font-size;
     color: $secondary-text;
     text-align: center;
+    text-transform: uppercase;
 }
 
-.Welcome {
-    font-family: PlayfairDisplay-Regular; 
-    display: block;
-    text-align: center;
-    justify-content: center;
-}
+    .Title_Text span:nth-child(1) {
+        font-family: PlayfairDisplay-Regular; 
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
 
-.Name {
-    display: block;
-    font-family: PlayfairDisplay-Bold;
-}
+    .Title_Text span:nth-child(2) {
+        display: block;
+        font-family: PlayfairDisplay-Bold;
+    }
 
 .Break{
     margin-top: 2px;
@@ -40,7 +50,7 @@
     font-family: OpenSans-Regular;
 }
 
-.Image {
+.Bergin_Image {
     display: flex;
     flex-direction: column;
     justify-content: center;

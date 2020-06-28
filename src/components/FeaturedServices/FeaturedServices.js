@@ -5,7 +5,6 @@ import ImplantRestoration from 'assets/services/implant_restoration.png';
 import RemovableProstho from 'assets/services/removable_prosthodontics.png';
 import RestorativeDentistry from 'assets/services/restorative_dentistry.png';
 
-
 const FeaturedServices = () => {
   return (
     <>

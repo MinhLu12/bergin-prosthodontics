@@ -1,30 +1,43 @@
 import React from 'react';
 import cn from './Summary.module.scss';
-import dr_bergin from 'assets/summary/dr_bergin.jpg';
-import {Button} from "@material-ui/core";
+import DrBergin from 'assets/summary/dr_bergin.jpg';
+import { Button } from "@material-ui/core";
 
 const Summary = () => {
-  return (
-    <>
-      <div className={cn.Summary}>
+	return (
+		<>
+			<div className={cn.Summary}>
 
-        <div className={cn.Header}>
-          <div className={cn.Title}>
-            <span className={cn.Welcome}>WELCOME TO</span>
-            <span className={cn.Name}>BERGIN PROSTHODONTICS</span>
-          </div>
-          <hr className={cn.Break}></hr>
-          <span>lots of text here about the office</span>
-        </div>
+				<div className={cn.Welcome_Text}>
 
-        <div className={cn.Image}>
-          <img src={dr_bergin}></img>
-          <Button variant="outline" className={cn.Button}>Meet Dr. Bergin</Button>
-        </div>
+					<div className={cn.Left_Space}></div>
+					<div className={cn.Right_Box}>
 
-      </div>
-    </>
-  )
+						<div className={cn.Title_Text}>
+							<span>Welcome to</span>
+							<span>Bergin Prosthodontics</span>
+						</div>
+						<hr className={cn.Break}></hr>
+						<p>lots of text here about the office lots of text here about the office</p>
+						<p>lots of text here about the office lots of text here about the office</p>
+						<p>lots of text here about the office lots of text here about the office</p>
+						<p>lots of text here about the office lots of text here about the office</p>
+						<p>lots of text here about the office lots of text here about the office</p>
+						<p>lots of text here about the office lots of text here about the office</p>
+						<p>lots of text here about the office lots of text here about the office</p>
+						
+					</div>
+
+				</div>
+
+				<div className={cn.Bergin_Image}>
+					<img src={DrBergin}></img>
+					<Button variant="outline" className={cn.Button}>Meet Dr. Bergin</Button>
+				</div>
+
+			</div>
+		</>
+	)
 }
 
 export default Summary 
