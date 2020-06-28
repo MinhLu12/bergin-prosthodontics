@@ -12,7 +12,6 @@ const Summary = () => {
 
 					<div className={cn.Left_Space}></div>
 					<div className={cn.Right_Box}>
-
 						<div className={cn.Title_Text}>
 							<span>Welcome to</span>
 							<span>Bergin Prosthodontics</span>

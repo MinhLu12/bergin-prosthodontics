@@ -13,11 +13,11 @@
 }
 
 .Left_Space {
-    flex-basis: 20%;
+    flex-basis: 30%;
 }
 
 .Right_Box {
-    flex-basis: 80%;
+    flex-basis: 70%;
     margin-top: 40px;
 }
 
@@ -59,6 +59,20 @@
     align-items: center;
     flex-basis: 40%;
 }
+
+    // Tablets, phones
+    @media only screen and (min-width: 600px) {
+        .Bergin_Image img {
+            width: 300px;
+        }
+    }
+
+    // Monitors, laptops
+    @media only screen and (min-width: 1200px) {
+        .Bergin_Image img {
+            width: 379px;
+        }
+    }
 
 .Button {
     margin-top: 16px !important;
