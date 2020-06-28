@@ -1,0 +1,55 @@
+@import 'global.scss';
+
+.Summary {
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    background-color: $quaternary-background-color;
+}
+
+.Header{
+    flex-basis: 60%;
+}
+
+.Title {
+    font-size: $secondary-font-size;
+    color: $secondary-text;
+    text-align: center;
+}
+
+.Welcome {
+    font-family: PlayfairDisplay-Regular; 
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.Name {
+    display: block;
+    font-family: PlayfairDisplay-Bold;
+}
+
+.Break{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    color: $secondary-text;
+}
+
+.Paragraph {
+    font-size: $primary-font-size;
+    font-family: OpenSans-Regular;
+}
+
+.Image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+}
+
+.Button {
+    margin-top: 2% !important;
+    background-color: $teriary-background-color;
+    color: $primary-text;
+}
