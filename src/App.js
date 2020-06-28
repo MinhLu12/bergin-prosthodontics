@@ -9,7 +9,7 @@ export default function App() {
   return (
     <>
       <Navigation></Navigation>
-      <div style={{minHeight: "700px"}}></div>
+      <div style={{minHeight: "500px"}}></div>
       <Summary></Summary>
       <BeforeAndAfter></BeforeAndAfter>
       <FeaturedServices></FeaturedServices>

@@ -18,13 +18,9 @@ const Summary = () => {
 							<span>Bergin Prosthodontics</span>
 						</div>
 						<hr className={cn.Break}></hr>
-						<p>lots of text here about the office lots of text here about the office</p>
-						<p>lots of text here about the office lots of text here about the office</p>
-						<p>lots of text here about the office lots of text here about the office</p>
-						<p>lots of text here about the office lots of text here about the office</p>
-						<p>lots of text here about the office lots of text here about the office</p>
-						<p>lots of text here about the office lots of text here about the office</p>
-						<p>lots of text here about the office lots of text here about the office</p>
+							<div className={cn.Paragraph}>
+							<p>lots of text here about the office lots of text here about the office</p>
+							</div>
 						
 					</div>
 
@@ -32,7 +28,7 @@ const Summary = () => {
 
 				<div className={cn.Bergin_Image}>
 					<img src={DrBergin}></img>
-					<Button variant="outline" className={cn.Button}>Meet Dr. Bergin</Button>
+					<Button variant="contained" className={cn.Button}>Meet Dr. Bergin</Button>
 				</div>
 
 			</div>
