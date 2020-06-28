@@ -58,6 +58,20 @@
     flex-basis: 40%;
 }
 
+    // Tablets, phones
+    @media only screen and (min-width: 600px) {
+        .Bergin_Image img {
+            width: 300px;
+        }
+    }
+
+    // Monitors, laptops
+    @media only screen and (min-width: 1200px) {
+        .Bergin_Image img {
+            width: 379px;
+        }
+    }
+
 .Button {
     margin-top: 2% !important;
     background-color: $teriary-background-color;
