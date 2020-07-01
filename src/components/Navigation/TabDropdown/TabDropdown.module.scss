@@ -1,14 +1,14 @@
-@import 'scss/shared.scss';
+@import 'global.scss';
 
 .TabUnderline {
     background-color: transparent !important;
 }
 
 .AppBar {
-    background-color: $primary-background-color;
+    background-color: #483D8B;
 }
 
 .Tab {
     min-width: 73px !important;
-    color: white !important;
+    color: $primary-text;
 }
