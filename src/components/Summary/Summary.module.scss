@@ -8,17 +8,8 @@
 }
 
 .Welcome_Text {
-    flex-basis: 60%;
-    display: flex;
-}
-
-.Left_Space {
-    flex-basis: 30%;
-}
-
-.Right_Box {
-    flex-basis: 70%;
     margin-top: 40px;
+    margin-right: 5%;
 }
 
 .Title_Text {
@@ -40,7 +31,7 @@
         font-family: PlayfairDisplay-Bold;
     }
 
-.Break{
+.Break {
     margin-top: 2px;
     margin-bottom: 10px;
     color: $secondary-text;
@@ -49,7 +40,6 @@
 .Paragraph {
     font-size: $primary-font-size;
     font-family: OpenSans-Regular;
-    text-align: center;
 }
 
 .Bergin_Image {
@@ -57,7 +47,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 40%;
 }
 
     // Tablets, phones
