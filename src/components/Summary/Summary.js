@@ -15,7 +15,15 @@ const Summary = () => {
                     </div>
                     <hr className={cn.Break}></hr>
                     <div className={cn.Paragraph}>
-                        <p>lots of text here about the office lots of text here about the office</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Praesent at congue purus, quis sagittis mauris. Pellentesque 
+                            bibendum nisl quis gravida scelerisque. Nulla viverra, nunc et 
+                            tempor lacinia, lectus ligula lacinia magna, aliquet faucibus sapien 
+                            nulla nec orci. Maecenas viverra velit ac nulla ultricies, in consectetur 
+                            sapien suscipit. Morbi feugiat sapien nec tortor congue malesuada et ut eros. 
+                            Praesent ipsum risus, ornare quis pulvinar sed, scelerisque quis risus. Nulla 
+                            iaculis mi laoreet libero placerat pulvinar. 
+                        </p>
                     </div>
                 </div>
 

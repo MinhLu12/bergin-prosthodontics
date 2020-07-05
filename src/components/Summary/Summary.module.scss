@@ -10,6 +10,7 @@
 .Welcome_Text {
     margin-top: 40px;
     margin-right: 5%;
+    max-width: 600px;
 }
 
 .Title_Text {
@@ -17,12 +18,12 @@
     color: $secondary-text;
     text-align: center;
     text-transform: uppercase;
+    text-align: left;
 }
 
     .Title_Text span:nth-child(1) {
         font-family: PlayfairDisplay-Regular; 
         display: block;
-        text-align: center;
         justify-content: center;
     }
 
