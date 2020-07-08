@@ -1,9 +1,9 @@
 import React from 'react';
 import cn from './FeaturedServices.module.scss';
-import CosmeticDentistry from 'assets/services/cosmetic_dentistry.png';
-import ImplantRestoration from 'assets/services/implant_restoration.png';
-import RemovableProstho from 'assets/services/removable_prosthodontics.png';
-import RestorativeDentistry from 'assets/services/restorative_dentistry.png';
+import CosmeticDentistry from 'assets/services/Asset 2.png';
+import ImplantRestoration from 'assets/services/Asset 1.png';
+import RemovableProstho from 'assets/services/Asset 4.png';
+import RestorativeDentistry from 'assets/services/Asset 3.png';
 
 const FeaturedServices = () => {
   return (
