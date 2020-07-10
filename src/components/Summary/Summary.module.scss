@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     min-height: 620px;
-    background-color: white;
+    background-color: $white-background-color;
 }
 
 .Welcome_Text {
@@ -67,7 +67,7 @@
 
 .Button {
     margin-top: 16px !important;
-    background-color: $teriary-background-color;
+    background-color: $darkgray-background-color;
     color: $secondary-text;
     font-family: PlayfairDisplay-Bold4 !important; 
     font-size: 20px !important;
