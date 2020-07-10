@@ -1,7 +1,8 @@
 @import 'global.scss';
 
 .AppBar {
-	background-color: $primary-background-color;
+    background-color: $gray-background-color;
+    box-shadow: none !important;
 }
 
 .Toolbar {
@@ -13,14 +14,16 @@
 }
 
 .Phone_Icon {
-	margin-right: 5px;
-	margin-top: 8px;
+    margin-right: 5px;
+    margin-top: 8px;
+    color: $primary-text;
 }
 
 .Phone_Number {
-	font-family: Raleway-Bold !important;
-	margin-right: 10px;
-	margin-top: 7px;
+    font-family: Raleway-Bold !important;
+    margin-right: 10px;
+    margin-top: 7px;
+    color: $primary-text;
 }
 
 .Tab_Dropdown {
@@ -28,7 +31,7 @@
 }
 
 .Button {
-	font-family: Raleway-Bold !important;
-	background-color: $teriary-background-color;
-	color: $primary-text;
+    font-family: Raleway-Bold !important;
+    background-color: $darkgray-background-color;
+    color: $secondary-text;
 }
