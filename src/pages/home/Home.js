@@ -4,7 +4,7 @@ import ContactInfo from "components/ContactInfo/ContactInfo";
 import FeaturedServices from "./FeaturedServices/FeaturedServices"
 import Title from "./Title/Title";
 
-export default function FrontPage() {
+export default function Home() {
 	return (
 		<>
 			<Title></Title>
