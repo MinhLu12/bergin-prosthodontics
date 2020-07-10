@@ -4,7 +4,7 @@ import {
 	Switch,
 	Route,
 } from "react-router-dom";
-import FrontPage from "./components/FrontPage";
+import FrontPage from "pages/home/FrontPage";
 import Navigation from "./components/Navigation/Navigation";
 
 export default function App() {
