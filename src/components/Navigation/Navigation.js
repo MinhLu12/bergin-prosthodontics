@@ -1,6 +1,6 @@
 import React from "react";
 import TabDropdown from "./TabDropdown/TabDropdown";
-import cn from "./Navigation.module.scss";
+import cn from  "./Navigation.module.scss";
 import { AppBar, Toolbar, Button } from "@material-ui/core";
 import PhoneIcon from "@material-ui/icons/Phone";
 
