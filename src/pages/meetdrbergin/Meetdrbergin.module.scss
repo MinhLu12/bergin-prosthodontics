@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
     // Tablets, phones
@@ -28,10 +29,17 @@
         }
     }
 
+.Welcome_Text {
+    margin-top: 90px;
+    margin-right: 2%;
+    max-width: 600px;
+}
+
 .Title_Text {
     font-size: $mainheader-font-size;
     color: $teriary-text;
     text-align: left;
+    justify-content: center;
 }
 
     .Title_Text span:nth-child(1) {
