@@ -11,14 +11,6 @@ import {
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
 
-const aboutUsItems = [
-    { label: "Our Practice", route: "/" },
-    { label: "Meet Dr. Bergin", route: "/MeetDrBergin" },
-];
-const forPatientsItems = [
-    { label: "Patient Forms", route: "/" },
-    { label: "Patient Instructions", route: "/" },
-];
 const servicesItems = [
     { label: "Cosmetic Dentistry", route: "/" },
     { label: "Restorative Dentistry", route: "/" },
@@ -33,7 +25,7 @@ const tabs = [
     { key: 0, label: "Home", items: [] },
     { key: 1, label: "Meet Dr. Bergin", items: [] },
     { key: 2, label: "Services", items: servicesItems },
-    { key: 3, label: "For Patients", items: forPatientsItems },
+    { key: 3, label: "For Patients", items: [] },
     { key: 4, label: "Gallery", items: [] },
     { key: 5, label: "For Doctors", items: forDoctorsItems },
 ];
@@ -81,6 +73,21 @@ class TabDropdown extends Component {
         } else if (tab.label == "Meet Dr. Bergin") {
             return (
                 <Link to="/MeetDrBergin">
+                    <Tab
+                        key={tab.key}
+                        onMouseEnter={this.showDropdown.bind(this, tab.key)}
+                        className={cn.Tab}
+                        label={tab.label}
+                        aria-owns={
+                            this.showDropdown ? "menu-list-grow" : undefined
+                        }
+                        aria-haspopup={"true"}
+                    />
+                </Link>
+            );
+        } else if (tab.label == "For Patients") {
+            return (
+                <Link to="/ForPatients">
                     <Tab
                         key={tab.key}
                         onMouseEnter={this.showDropdown.bind(this, tab.key)}
