@@ -1,0 +1,32 @@
+@import "global.scss";
+
+.Patient_Instructions {
+    min-height: 340px;
+    text-align: center;
+}
+
+.Title {
+    font-family: Raleway-Regular;
+    font-size: $header-font-size;
+}
+
+.Title_Spacing {
+    margin-top: 50px;
+}
+
+.Button_Spacing {
+    margin-right: 1% !important;
+    margin-left: 1% !important;
+}
+
+.Button {
+    font-family: Raleway-Bold !important;
+    background-color: $darkgray-background-color;
+    color: $secondary-text;
+    font-size: 14px !important;
+    align-items: center;
+}
+
+.Button_Negative {
+    margin-bottom: -50px;
+}
