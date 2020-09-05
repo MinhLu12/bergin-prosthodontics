@@ -3,6 +3,7 @@ import TabDropdown from "./TabDropdown/TabDropdown";
 import cn from "./Navigation.module.scss";
 import { AppBar, Toolbar, Button } from "@material-ui/core";
 import PhoneIcon from "@material-ui/icons/Phone";
+import { Link } from 'react-router-dom'
 
 const Navigation = () => {
     return (
@@ -12,9 +13,12 @@ const Navigation = () => {
                 <div className={cn.Contact}>
                     <PhoneIcon className={cn.Phone_Icon} fontSize="small" />
                     <span className={cn.Phone_Number}>206-866-6466</span>
-                    <Button variant="contained" className={cn.Button}>
-                        Contact Us
-                    </Button>
+
+                    <Link to={"/contact"}>
+                        <Button variant="contained" className={cn.Button}>
+                            Contact Us
+                        </Button>
+                    </Link>
                 </div>
             </Toolbar>
 

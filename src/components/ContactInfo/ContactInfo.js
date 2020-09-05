@@ -35,10 +35,11 @@ const ContactInfo = () => {
                         ></iframe>
                     </div>
                 </div>
-            </div>
 
-            <div className={cn.Copyright}>
-                © 2020 Junping Bergin PLLC, Incorporated. All Rights Reserved.
+                <div className={cn.Copyright}>
+                    © 2020 Junping Bergin PLLC, Incorporated. All Rights
+                    Reserved.
+                </div>
             </div>
         </>
     );

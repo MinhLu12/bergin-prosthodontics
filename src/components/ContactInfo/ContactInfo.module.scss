@@ -1,4 +1,4 @@
-@import 'global.scss';
+@import "global.scss";
 
 .Contact_Info {
     display: flex;
@@ -18,22 +18,22 @@
     flex-basis: 33.3333%;
 }
 
-    .Column_Left {
-        justify-content: flex-end;
-    }
+.Column_Left {
+    justify-content: flex-end;
+}
 
-    .Column_Middle {
-        justify-content: center;
-    }
+.Column_Middle {
+    justify-content: center;
+}
 
-    .Column_Right {
-        justify-content: flex-start;
-    }
+.Column_Right {
+    justify-content: flex-start;
+}
 
 .Copyright {
     font-size: 14px;
     letter-spacing: 0.02857em;
-    color: $primary-text;;
+    color: $primary-text;
     text-transform: uppercase;
     background-color: $gray-background-color;
     text-align: center;
@@ -43,5 +43,4 @@
 .Bold_Header {
     font-family: Raleway-Bold;
     text-transform: uppercase;
-   
 }
